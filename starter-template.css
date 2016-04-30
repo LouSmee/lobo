@@ -1,0 +1,48 @@
+body {
+  padding-top: 30px;
+}
+
+.independiente {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+	.inicio-desktop {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.inicio-mobile {
+		display: none;
+	}
+	.navbar-nav {
+    	float: right;
+    }
+}
+
+/*Revisar y cambiar sticky footer
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here 
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- 
+/* Not required for template or sticky footer method. 
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+*/
