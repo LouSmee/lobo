@@ -15,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    <link href="css.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -40,41 +40,46 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Inicio</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="portafolio.html">Portafolio</a></li>
             <li><a href="contacto.html">Contacto</a></li>
             <li><a href="recursos.html">Recursos</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
 
-
-    Formulario con validacion
-    nombre telefono email mensaje
-  <div class="row">
-    <div class="col-sm-4">.col-sm-4</div>
-    <div class="col-sm-4">.col-sm-4</div>
-    <div class="col-sm-4">.col-sm-4</div>
-  </div>
-<div class="row">
-    <div class="col-sm-4">.col-sm-4</div>
-    <div class="col-sm-4">.col-sm-4</div>
-    <div class="col-sm-4">.col-sm-4</div>
-  </div> 
-  <div class="row">
-    <div class="col-sm-4">.col-sm-4</div>
-    <div class="col-sm-4">.col-sm-4</div>
-    <div class="col-sm-4">.col-sm-4</div>
-  </div>
-
-    <div class="container">
-
-      <div class="starter-template">
-        <h1>This is contacto</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      <div class="container independiente centrado">
+        <h1>Para contactar, rellene el formulario</h1>       
+        <p class="lead"><cite>“Para todo problema humano hay siempre una solución fácil, clara, plausible y equivocada.”</quote></p>
+      </div> 
+      <div class="container formulario">
+      <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <form role="form">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre">
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" class="form-control" id="telefono">
+            <small class="text-muted">Escriba su número de teléfono sin guiones.</small>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="asunto">Asunto:</label>
+            <textarea class="form-control" id="asunto" rows="5"> </textarea>
+            <small class="text-muted">Explique brevemente su problema.</small>
+          </div>
+          <button type="submit" class="btn btn-default">PPPPP</button>
+        </form>
+        </div>
+        </div>
       </div>
-
-    </div><!-- /.container -->
+      
     <footer class="footer">
       <div class="container">
         <p class="text-muted">Place sticky footer content here.</p>
