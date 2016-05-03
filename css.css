@@ -38,12 +38,44 @@ img {
   padding: 60px 0px;
 }
 
-.footer {
-  background-color: grey;
-}
-
 .pie { 
   padding: 30px;
   padding-left: 10%;
+}
+
+#redes {
+    position: relative;
+}
+
+#redes li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#redes li, #redes a {
+    height: 20px;
+    width: 22px;
+    display: block;
+}
+
+#face {
+    left: 0px;
+    background: url('img/iconos_opt.jpg') 0 0;   
+    background-size: cover;
+}
+
+#twit {
+    left: 33px;
+    background: url('img/iconos_opt.jpg') -33px 0;   
+    background-size: cover;
+}
+
+#tube {
+    left: 66px;
+    background: url('img/iconos_opt.jpg') -66px 0;   
+    background-size: cover;
 }
 
