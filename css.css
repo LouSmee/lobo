@@ -63,19 +63,19 @@ img {
 
 #face {
     left: 0px;
-    background: url('img/iconos_opt.jpg') 0 0;   
+    background: url('img/iconos.jpg') 0 0;   
     background-size: cover;
 }
 
 #twit {
     left: 33px;
-    background: url('img/iconos_opt.jpg') -33px 0;   
+    background: url('img/iconos.jpg') -33px 0;   
     background-size: cover;
 }
 
 #tube {
     left: 66px;
-    background: url('img/iconos_opt.jpg') -66px 0;   
+    background: url('img/iconos.jpg') -66px 0;   
     background-size: cover;
 }
 
