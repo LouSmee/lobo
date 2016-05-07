@@ -43,45 +43,79 @@
         </div>
       </div>
     </nav>
-
+    <div id="contactar">
       <div class="container independiente text-center">
         <h1>Para contactar, rellene el formulario</h1>       
         <p class="lead"><cite title="Henry Louis Mencken">“Para todo problema humano hay siempre una solución fácil, clara, plausible y equivocada.”</cite></p>
       </div> 
       <div class="container formulario">
-      <div class="col-sm-6 col-sm-offset-3">
-        <form role="form">
-          <div class="form-group">
-            <label for="nombre">Nombre:</label>
-            <input type="text" class="form-control" id="nombre">
-          </div>
-          <div class="form-group">
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" class="form-control" id="telefono">
-            <small class="text-muted">Escriba su número de teléfono sin guiones ni paréntesis.</small>
-          </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" class="form-control" id="email">
-          </div>
-          <div class="form-group">
-            <label for="asunto">Asunto:</label>
-            <textarea class="form-control" id="asunto" rows="5"> </textarea>
-            <small class="text-muted">Explique brevemente su problema.</small>
-          </div>
-            <button type="submit" class="btn btn-lg btn-primary center-block">Contactar</button>
-        </form>
+        <div class="col-sm-6 col-sm-offset-3">
+          <form role="form">
+            <div class="form-group">
+              <label class="control-label" for="nombre">Nombre:</label>
+              <input type="text" class="form-control" id="nombre" name="nombre">
+            </div>
+            <div class="form-group">
+              <label class="control-label" for="telefono">Teléfono:</label>
+              <input type="tel" class="form-control" id="telefono" name="telefono">
+              <small class="text-muted">Escriba su número de teléfono sin guiones ni paréntesis.</small>
+            </div>
+            <div class="form-group">
+              <label class="control-label" for="email">Email:</label>
+              <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="form-group">
+              <label class="control-label" for="asunto">Asunto:</label>
+              <textarea class="form-control" id="asunto" name="asunto" rows="5"> </textarea>
+              <small class="text-muted">Explique brevemente su problema.</small>
+            </div>
+              <button id="submit" type="submit" class="btn btn-lg btn-primary center-block">Contactar</button>
+          </form>
+        </div>
       </div>
+    </div>
+    <div id="contactado" class="container hidden">
+      <div class="container independiente text-center">
+        <h1>Gracias por contactar</h1>       
+        <p class="lead"><cite title="Arnold H. Glasow">“Nada dura por siempre, ni siquiera tus problemas.”</cite></p>
+      </div> 
+      <div class="container independiente text-center">
+        <h2>Su problema será resuelto en breve</h2>
       </div>
-      
+      <div class="container col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">
+        <div class="center-block">           
+          <img class="img-responsive" src="img/better.jpg" alt="El señor Lobo dice que haga lo que diga cuando diga">
+        </div>
+      </div>
+    </div>
+
     <footer class="footer">
-      <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
-      </div>
+      <div class="container pie">
+        <div class="row small">
+            <div class="col-sm-4">
+              <p>Copyright video <a href="http://www.miramax.com/">Miramax</a></p>
+              <p>Personaje creado por <a href="https://es.wikipedia.org/wiki/Quentin_Tarantino">Quentin Tarantino</a></p>
+              <p>Interpretado por <a href="https://es.wikipedia.org/wiki/Harvey_Keitel">Harvey Keitel</a></p>
+            </div>
+          <div class="col-sm-4"><p>Web realizada para <a href="http://www.cpilosenlaces.com/">CPIFP Los Enlaces</a></p>
+          <p>Vector de etiqueta diseñado por <a href="http://www.freepik.es/fotos-vectores-gratis/etiqueta">Freepik</a></p></div>
+            <div class="col-sm-4">             
+              <p>Sígame, léame, disfrute</p>             
+              <ul id="redes">
+                <li id="face"><a href="https://www.facebook.com/Harvey-Keitel-126519369237/" title="Facebook"></a></li>
+                <li id="twit"><a href="https://twitter.com/harvey_keitel" title="Twitter"></a></li>
+                <li id="tube"><a href="https://www.youtube.com/watch?v=BwuSRXf7r9g" title="Youtube"></a></li>
+              </ul>           
+            </div>
+          </div>
+        </div>
+      </div>        
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/myform.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

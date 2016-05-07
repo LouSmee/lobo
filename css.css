@@ -57,7 +57,7 @@ img {
 
 #redes li, #redes a {
     height: 20px;
-    width: 22px;
+    width: 20px;
     display: block;
 }
 
@@ -68,14 +68,13 @@ img {
 }
 
 #twit {
-    left: 33px;
-    background: url('img/iconos.jpg') -33px 0;   
+    left: 35px;
+    background: url('img/iconos.jpg') -35px 0;   
     background-size: cover;
 }
 
 #tube {
-    left: 66px;
-    background: url('img/iconos.jpg') -66px 0;   
+    left: 70px;
+    background: url('img/iconos.jpg') -68px 0;   
     background-size: cover;
 }
-
