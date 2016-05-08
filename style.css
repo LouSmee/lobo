@@ -1,0 +1,76 @@
+body {
+  padding-top: 40px;
+  font-family: 'Crete Round', serif;
+}
+.independiente {
+  padding: 40px 15px;
+}
+.formulario {
+  padding: 0px 40px;
+}
+textarea {
+  resize: none;
+}
+.video {
+  background: black;
+  padding: 0px;
+  width: 80%;
+}
+@media (max-width: 768px) {
+  .video {
+    width: 100%;
+  }
+}
+img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.pelis {
+  width: 80%;
+  padding: 60px 0px;
+}
+.pie {
+  padding: 30px;
+  padding-left: 10%;
+}
+.iconos {
+  height: 20px;
+  width: 20px;
+  display: block;
+}
+#redes {
+  position: relative;
+}
+#redes li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  height: 20px;
+  width: 20px;
+  display: block;
+}
+#redes a {
+  height: 20px;
+  width: 20px;
+  display: block;
+}
+.ajustar {
+  background-size: cover;
+}
+#face {
+  background: url('img/iconos.jpg') 0 0;
+  background-size: cover;
+  left: 0px;
+}
+#twit {
+  background: url('img/iconos.jpg') -35px 0;
+  background-size: cover;
+  left: 35px;
+}
+#tube {
+  background: url('img/iconos.jpg') -68px 0;
+  background-size: cover;
+  left: 70px;
+}

@@ -62,8 +62,8 @@ img {
 }
 
 #face {
-    left: 0px;
-    background: url('img/iconos.jpg') 0 0;   
+    left: 0px; 
+    background: url('img/iconos.jpg') 0 0;  
     background-size: cover;
 }
 
