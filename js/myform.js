@@ -46,9 +46,10 @@ $(document).ready(function(){
                 error.insertAfter(element);
             }
         },
-        submitHandler: function(form) { 
+        submitHandler: function(form) {         
           $('#contactar').addClass('hidden');
-          $('#contactado').removeClass('hidden').scrollTop();
+          $('#contactado').removeClass('hidden');
+          window.scrollTo(0,0);
         }
     });
   });
