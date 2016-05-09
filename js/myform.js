@@ -13,9 +13,6 @@ $(document).ready(function(){
             email: {
                 required: true,
                 email: true
-            },
-            asunto: {
-                required: true
             }
         },
         messages: {
@@ -28,8 +25,7 @@ $(document).ready(function(){
             email: {
               required: "Es necesario que indique su email.",
               email: "Por favor, introduzca un email correcto."
-            },
-            asunto: "Es necesario que describa su problema."
+            }
         },
         highlight: function(element) {
             $(element).closest('.form-group').addClass('has-error');

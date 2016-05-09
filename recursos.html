@@ -8,7 +8,7 @@
 
     <title>Señor Lobo</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <link href='https://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
 
@@ -92,7 +92,7 @@
         <p>Era necesario probar esta solución. Se escribe el fichero de estilos <a target="_blank" href="css/less/style.less"><em>style.less</em></a>, se precompila y minifica para producción</p>
         <p>Nuestro fichero <em>style.css</em> es el resultado obtenido. Breve, ya que las clases <em>bootstrap</em> hacen la inmensa mayoría del trabajo. Se han modificado algunos detalles generales tipo <em>padding</em>, usando alguna regla anidada, <em>mixin</em>, variables y funciones. La verdad es que resulta más cómodo que el <em>css</em>.</p>
         <h3>Día 13</h3>
-        <p></p>
+        <p>A rematar la faena. Se incluyen los <em>CDNs</em> recomendados. Las <em>request</em> están al mínimo. Se le da una pasada por la validación de <em>W3C</em> (¡Esos <em>div</em> uno tras otro!). Se minimizan todos los ficheros y al servidor con ellos. El veredicto de <a target="_blank" href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fdiw.infenlaces.com%2F&tab=desktop"><em>Google PageSpeed</em></a> resulta favorable.</p>
 
         <h2 class="text-center">Recursos</h2>
         <dl class="dl-horizontal">
@@ -134,34 +134,38 @@
           <dd>Investigando sobre boilerplate, modernizr y normalize, concluí que lo más sencillo era incluir normalize. Me disponía a ello y, mira por dónde, bootstrap ya lo incluye :D</dd>
           <dt>Imágenes</dt>
           <dd>Optimizadas hasta pesar 20-25 KB.</dd>
-          <dt>Pagespeed</dt>
-          <dd>TODO frase dejar coche limpio, minificar(tb less), minimum request, cdn, validar w3c y test(Habilitar la compresión de tu sitio web con GZIP?), dia13</dd>
+          <dt>PageSpeed</dt>
+          <dd>Prueba superada.</dd>
           <dt>Documentación</dt>
           <dd>Aquí estamos, espero que haya quedado clara.</dd>
           <dt>GitHub</dt>
-          <dd>enlace</dd>
+          <dd><a target="_blank" href="https://github.com/LouSmee/lobo.git">https://github.com/LouSmee/lobo.git</a></dd>
         </dl>    
+      </div>
+      <div class="container col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">                
+        <img class="img-responsive" src="img/sello.jpg" alt="El señor Lobo dice que haga lo que diga cuando diga">
       </div>
     </div>
  
     <footer class="footer">
       <div class="container pie">
         <div class="row small">
-            <div class="col-sm-4">
-              <p>Copyright video <a href="http://www.miramax.com/">Miramax</a></p>
-              <p>Personaje creado por <a href="https://es.wikipedia.org/wiki/Quentin_Tarantino">Quentin Tarantino</a></p>
-              <p>Interpretado por <a href="https://es.wikipedia.org/wiki/Harvey_Keitel">Harvey Keitel</a></p>
-            </div>
-          <div class="col-sm-4"><p>Web realizada para <a href="http://www.cpilosenlaces.com/">CPIFP Los Enlaces</a></p>
-          <p>Vector de etiqueta diseñado por <a href="http://www.freepik.es/fotos-vectores-gratis/etiqueta">Freepik</a></p></div>
-            <div class="col-sm-4">             
-              <p>Sígame, léame, disfrute</p>             
-              <ul id="redes">
-                <li id="face"><a href="https://www.facebook.com/Harvey-Keitel-126519369237/" title="Facebook"></a></li>
-                <li id="twit"><a href="https://twitter.com/harvey_keitel" title="Twitter"></a></li>
-                <li id="tube"><a href="https://www.youtube.com/watch?v=BwuSRXf7r9g" title="Youtube"></a></li>
-              </ul>           
-            </div>
+          <div class="col-sm-4">
+            <p>Copyright video <a href="http://www.miramax.com/">Miramax</a></p>
+            <p>Personaje creado por <a href="https://es.wikipedia.org/wiki/Quentin_Tarantino">Quentin Tarantino</a></p>
+            <p>Interpretado por <a href="https://es.wikipedia.org/wiki/Harvey_Keitel">Harvey Keitel</a></p>
+          </div>
+          <div class="col-sm-4">
+            <p>Web realizada para <a href="http://www.cpilosenlaces.com/">CPIFP Los Enlaces</a></p>
+            <p>Vector de etiqueta diseñado por <a href="http://www.freepik.es/fotos-vectores-gratis/etiqueta">Freepik</a></p>
+          </div>
+          <div class="col-sm-4">             
+            <p>Sígame, léame, disfrute</p>             
+            <ul id="redes">
+              <li id="face"><a href="https://www.facebook.com/Harvey-Keitel-126519369237/" title="Facebook"></a></li>
+              <li id="twit"><a href="https://twitter.com/harvey_keitel" title="Twitter"></a></li>
+              <li id="tube"><a href="https://www.youtube.com/watch?v=BwuSRXf7r9g" title="Youtube"></a></li>
+            </ul>           
           </div>
         </div>
       </div>        
@@ -169,6 +173,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </body>
 </html>
